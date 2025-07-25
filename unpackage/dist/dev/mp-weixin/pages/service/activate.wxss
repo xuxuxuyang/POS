@@ -1,0 +1,208 @@
+
+.activate-container {
+  min-height: 100vh;
+  background-color: #f7f7f7;
+  padding: 30rpx;
+  padding-bottom: 120rpx;
+}
+.header-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40rpx 0;
+}
+.header-icon {
+  width: 120rpx;
+  height: 120rpx;
+  margin-bottom: 20rpx;
+}
+.header-title {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10rpx;
+}
+.header-desc {
+  font-size: 28rpx;
+  color: #666;
+}
+.form-card,
+.steps-card,
+.activation-card,
+.help-card {
+  background-color: #fff;
+  border-radius: 12rpx;
+  padding: 30rpx;
+  margin-bottom: 30rpx;
+  box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.05);
+}
+.card-title {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30rpx;
+  position: relative;
+  padding-left: 20rpx;
+}
+.card-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6rpx;
+  height: 30rpx;
+  background-color: #1296db;
+  border-radius: 3rpx;
+}
+.form-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30rpx;
+}
+.form-item:last-child {
+  margin-bottom: 0;
+}
+.form-label {
+  width: 180rpx;
+  font-size: 28rpx;
+  color: #333;
+}
+.form-input {
+  flex: 1;
+  height: 80rpx;
+  border: 1rpx solid #e5e5e5;
+  border-radius: 8rpx;
+  padding: 0 20rpx;
+  font-size: 28rpx;
+}
+.scan-btn {
+  width: 80rpx;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20rpx;
+}
+.scan-icon {
+  width: 44rpx;
+  height: 44rpx;
+}
+.steps {
+  padding: 20rpx 0;
+}
+.step-item {
+  display: flex;
+  margin-bottom: 40rpx;
+}
+.step-item:last-child {
+  margin-bottom: 0;
+}
+.step-num {
+  width: 50rpx;
+  height: 50rpx;
+  background-color: #eee;
+  color: #999;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28rpx;
+  margin-right: 20rpx;
+}
+.step-active .step-num {
+  background-color: #1296db;
+  color: #fff;
+}
+.step-info {
+  flex: 1;
+}
+.step-title {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10rpx;
+}
+.step-active .step-title {
+  color: #1296db;
+}
+.step-desc {
+  font-size: 24rpx;
+  color: #999;
+}
+.activation-card {
+  text-align: center;
+}
+.activation-code {
+  font-size: 48rpx;
+  font-weight: bold;
+  color: #1296db;
+  letter-spacing: 4rpx;
+  margin: 30rpx 0;
+}
+.activation-note {
+  font-size: 26rpx;
+  color: #999;
+  margin-bottom: 30rpx;
+}
+.copy-btn {
+  display: inline-block;
+  padding: 15rpx 40rpx;
+  background-color: #f0f9ff;
+  color: #1296db;
+  font-size: 26rpx;
+  border-radius: 30rpx;
+  border: 1rpx solid #1296db;
+}
+.help-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.help-icon {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+}
+.help-title {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #333;
+}
+.help-content {
+  padding: 0 10rpx;
+}
+.help-text {
+  display: block;
+  font-size: 26rpx;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 10rpx;
+}
+.help-link {
+  color: #1296db;
+}
+.help-phone {
+  color: #1296db;
+  text-decoration: underline;
+}
+.btn-group {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  padding: 20rpx 30rpx;
+  box-shadow: 0 -2rpx 10rpx rgba(0, 0, 0, 0.05);
+  z-index: 9;
+}
+.next-btn {
+  height: 90rpx;
+  background: linear-gradient(to right, #1296db, #14b8e4);
+  color: #fff;
+  font-size: 32rpx;
+  border-radius: 45rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

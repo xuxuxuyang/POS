@@ -1,0 +1,231 @@
+
+.promoter-container {
+  min-height: 100vh;
+  background-color: #f8f8f8;
+  padding-bottom: 50rpx;
+}
+
+/* 头部样式 */
+.header-bg {
+  height: 350rpx;
+  background: linear-gradient(to right, #1296db, #14b8e4);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 0 30rpx;
+  text-align: center;
+}
+.bg-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+}
+.header-title {
+  font-size: 42rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+  position: relative;
+  z-index: 1;
+}
+.header-subtitle {
+  font-size: 28rpx;
+  opacity: 0.9;
+  position: relative;
+  z-index: 1;
+}
+
+/* 分区样式 */
+.section {
+  margin: 30rpx;
+  background-color: #fff;
+  border-radius: 12rpx;
+  padding: 30rpx;
+  box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.05);
+}
+.section-title {
+  font-size: 34rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30rpx;
+  padding-left: 20rpx;
+  border-left: 6rpx solid #1296db;
+}
+
+/* 优势列表 */
+.advantage-list {
+}
+.advantage-item {
+  display: flex;
+  margin-bottom: 30rpx;
+}
+.advantage-item:last-child {
+  margin-bottom: 0;
+}
+.advantage-icon {
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 20rpx;
+  flex-shrink: 0;
+}
+.advantage-content {
+  flex: 1;
+}
+.advantage-title {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10rpx;
+}
+.advantage-desc {
+  font-size: 26rpx;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* 收益说明 */
+.profit-card {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f9f9f9;
+  border-radius: 12rpx;
+  padding: 30rpx 0;
+  margin-bottom: 30rpx;
+}
+.profit-item {
+  text-align: center;
+}
+.profit-value {
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #1296db;
+  margin-bottom: 10rpx;
+}
+.profit-label {
+  font-size: 26rpx;
+  color: #666;
+}
+.profit-desc {
+}
+.desc-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15rpx;
+}
+.desc-dot {
+  margin-right: 10rpx;
+  color: #1296db;
+  flex-shrink: 0;
+}
+.desc-text {
+  font-size: 26rpx;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* 加盟流程 */
+.process-list {
+}
+.process-item {
+  display: flex;
+  margin-bottom: 25rpx;
+}
+.process-item:last-child {
+  margin-bottom: 0;
+}
+.process-num {
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+  background-color: #1296db;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28rpx;
+  margin-right: 20rpx;
+  flex-shrink: 0;
+}
+.process-content {
+  flex: 1;
+}
+.process-title {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10rpx;
+}
+.process-desc {
+  font-size: 26rpx;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* 常见问题 */
+.faq-list {
+}
+.faq-item {
+  margin-bottom: 20rpx;
+  border-bottom: 1rpx solid #eee;
+  padding-bottom: 20rpx;
+}
+.faq-item:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #333;
+  padding: 10rpx 0;
+}
+.faq-arrow {
+  font-size: 24rpx;
+  color: #999;
+  transition: all 0.3s;
+}
+.faq-arrow-down {
+  transform: rotate(180deg);
+}
+.faq-answer {
+  font-size: 26rpx;
+  color: #666;
+  line-height: 1.6;
+  padding: 15rpx 0;
+  background-color: #f9f9f9;
+  border-radius: 8rpx;
+  padding: 20rpx;
+  margin-top: 10rpx;
+}
+
+/* 按钮 */
+.apply-btn {
+  margin: 40rpx 30rpx 20rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  background: linear-gradient(to right, #1296db, #14b8e4);
+  color: #fff;
+  font-size: 32rpx;
+  border-radius: 45rpx;
+  font-weight: bold;
+  box-shadow: 0 4rpx 12rpx rgba(18, 150, 219, 0.3);
+}
+.contact-btn {
+  margin: 20rpx 30rpx 40rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  background: #fff;
+  color: #1296db;
+  font-size: 32rpx;
+  border-radius: 45rpx;
+  font-weight: bold;
+  box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.05);
+}

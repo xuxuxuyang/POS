@@ -1,0 +1,106 @@
+
+.verify-container {
+  min-height: 100vh;
+  background-color: #f7f7f7;
+  padding-bottom: 30rpx;
+}
+.verify-header {
+  padding: 40rpx 30rpx;
+  background-color: #fff;
+}
+.header-title {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10rpx;
+}
+.header-desc {
+  font-size: 26rpx;
+  color: #999;
+}
+.form-container {
+  margin-top: 20rpx;
+  background-color: #fff;
+}
+.form-group {
+  display: flex;
+  align-items: center;
+  padding: 30rpx;
+}
+.form-label {
+  width: 160rpx;
+  font-size: 30rpx;
+  color: #333;
+}
+.form-input {
+  flex: 1;
+  font-size: 30rpx;
+  height: 60rpx;
+}
+.form-divider {
+  height: 1rpx;
+  background-color: #eee;
+  margin-left: 30rpx;
+}
+.code-btn {
+  background-color: #1296db;
+  color: #fff;
+  font-size: 26rpx;
+  padding: 10rpx 20rpx;
+  border-radius: 6rpx;
+  margin-left: 20rpx;
+}
+.code-btn.disabled {
+  background-color: #cccccc;
+}
+.submit-btn {
+  margin: 60rpx 30rpx;
+  height: 90rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1296db;
+  color: #fff;
+  font-size: 32rpx;
+  border-radius: 45rpx;
+  box-shadow: 0 4rpx 20rpx rgba(18, 150, 219, 0.3);
+}
+.tips-card {
+  margin: 30rpx;
+  background-color: #fff;
+  border-radius: 12rpx;
+  padding: 30rpx;
+  box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.05);
+}
+.tips-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.tips-icon {
+  width: 36rpx;
+  height: 36rpx;
+  margin-right: 10rpx;
+}
+.tips-title {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #333;
+}
+.tips-content {
+  padding-left: 10rpx;
+}
+.tip-item {
+  display: flex;
+  margin-bottom: 10rpx;
+}
+.tip-dot {
+  margin-right: 10rpx;
+  color: #1296db;
+  font-weight: bold;
+}
+.tip-text {
+  font-size: 26rpx;
+  color: #666;
+  line-height: 1.6;
+}

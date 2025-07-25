@@ -1,0 +1,233 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "POS机申请"
+      }
+    },
+    {
+      "path": "pages/order/list",
+      "style": {
+        "navigationBarTitleText": "订单列表",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/service/activate",
+      "style": {
+        "navigationBarTitleText": "激活POS机"
+      }
+    },
+    {
+      "path": "pages/service/appointment",
+      "style": {
+        "navigationBarTitleText": "在线预约"
+      }
+    },
+    {
+      "path": "pages/service/repair",
+      "style": {
+        "navigationBarTitleText": "维修申请"
+      }
+    },
+    {
+      "path": "pages/product/list",
+      "style": {
+        "navigationBarTitleText": "产品列表"
+      }
+    },
+    {
+      "path": "pages/product/detail",
+      "style": {
+        "navigationBarTitleText": "产品详情"
+      }
+    },
+    {
+      "path": "pages/apply/index",
+      "style": {
+        "navigationBarTitleText": "申请POS机"
+      }
+    },
+    {
+      "path": "pages/order/index",
+      "style": {
+        "navigationBarTitleText": "订单状态"
+      }
+    },
+    {
+      "path": "pages/deposit/pay",
+      "style": {
+        "navigationBarTitleText": "押金支付"
+      }
+    },
+    {
+      "path": "pages/deposit/refund-orders",
+      "style": {
+        "navigationBarTitleText": "退款记录",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/user/index",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    },
+    {
+      "path": "pages/help/index",
+      "style": {
+        "navigationBarTitleText": "常见问题",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/search/index",
+      "style": {
+        "navigationBarTitleText": "搜索",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/user/points",
+      "style": {
+        "navigationBarTitleText": "我的积分"
+      }
+    },
+    {
+      "path": "pages/guide/apply",
+      "style": {
+        "navigationBarTitleText": "申请流程"
+      }
+    },
+    {
+      "path": "pages/guide/index",
+      "style": {
+        "navigationBarTitleText": "使用教程"
+      }
+    },
+    {
+      "path": "pages/service/after-sale",
+      "style": {
+        "navigationBarTitleText": "售后服务"
+      }
+    },
+    {
+      "path": "pages/activity/list",
+      "style": {
+        "navigationBarTitleText": "优惠活动"
+      }
+    },
+    {
+      "path": "pages/activity/detail",
+      "style": {
+        "navigationBarTitleText": "活动详情"
+      }
+    },
+    {
+      "path": "pages/guide/download",
+      "style": {
+        "navigationBarTitleText": "资料下载"
+      }
+    },
+    {
+      "path": "pages/user/invoice",
+      "style": {
+        "navigationBarTitleText": "发票管理"
+      }
+    },
+    {
+      "path": "pages/promoter/index",
+      "style": {
+        "navigationBarTitleText": "推广中心"
+      }
+    },
+    {
+      "path": "pages/promoter/join",
+      "style": {
+        "navigationBarTitleText": "码商加盟"
+      }
+    },
+    {
+      "path": "pages/service/more",
+      "style": {
+        "navigationBarTitleText": "更多服务"
+      }
+    },
+    {
+      "path": "pages/user/address",
+      "style": {
+        "navigationBarTitleText": "收货地址"
+      }
+    },
+    {
+      "path": "pages/user/address-edit",
+      "style": {
+        "navigationBarTitleText": "编辑地址"
+      }
+    },
+    {
+      "path": "pages/user/security",
+      "style": {
+        "navigationBarTitleText": "账号安全"
+      }
+    },
+    {
+      "path": "pages/user/phone-verify",
+      "style": {
+        "navigationBarTitleText": "手机号验证"
+      }
+    },
+    {
+      "path": "pages/help/feedback",
+      "style": {
+        "navigationBarTitleText": "意见反馈"
+      }
+    },
+    {
+      "path": "pages/help/about",
+      "style": {
+        "navigationBarTitleText": "关于我们"
+      }
+    },
+    {
+      "path": "pages/activity/promotion",
+      "style": {
+        "navigationBarTitleText": "推广返现活动"
+      }
+    }
+  ],
+
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "POS机申请",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/shouye.png",
+        "selectedIconPath": "static/tabbar/shouye.png"
+      },
+      {
+        "pagePath": "pages/order/index",
+        "text": "订单",
+        "iconPath": "static/tabbar/dingdan.png",
+        "selectedIconPath": "static/tabbar/dingdan.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "static/tabbar/wode.png",
+        "selectedIconPath": "static/tabbar/wode.png"
+      }
+    ]
+  },
+  "uniIdRouter": {}
+}

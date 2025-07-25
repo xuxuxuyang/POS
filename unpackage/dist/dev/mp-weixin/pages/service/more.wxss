@@ -1,0 +1,129 @@
+
+.more-services {
+  min-height: 100vh;
+  background-color: #f7f7f7;
+  padding-bottom: 40rpx;
+}
+.page-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40rpx 0;
+  background: linear-gradient(to right, #1296db, #14b8e4);
+  color: #fff;
+}
+.header-icon {
+  width: 100rpx;
+  height: 100rpx;
+  margin-bottom: 20rpx;
+}
+.header-title {
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.services-section {
+  margin: 30rpx;
+  background-color: #fff;
+  border-radius: 12rpx;
+  padding: 30rpx;
+  box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.05);
+}
+.section-title {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20rpx;
+  position: relative;
+  padding-left: 20rpx;
+}
+.section-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6rpx;
+  height: 30rpx;
+  background-color: #1296db;
+  border-radius: 3rpx;
+}
+.service-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.service-item {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20rpx 0;
+}
+.service-icon {
+  width: 80rpx;
+  height: 80rpx;
+  margin-bottom: 15rpx;
+}
+.service-name {
+  font-size: 26rpx;
+  color: #666;
+}
+.recommend-list {
+}
+.recommend-item {
+  display: flex;
+  align-items: center;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #f0f0f0;
+}
+.recommend-item:last-child {
+  border-bottom: none;
+}
+.recommend-image {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 12rpx;
+  margin-right: 20rpx;
+}
+.recommend-info {
+  flex: 1;
+  position: relative;
+}
+.recommend-name {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10rpx;
+}
+.recommend-desc {
+  font-size: 26rpx;
+  color: #999;
+}
+.recommend-tag {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ff5252;
+  color: #fff;
+  font-size: 22rpx;
+  padding: 4rpx 12rpx;
+  border-radius: 6rpx;
+}
+.contact-section {
+  margin: 30rpx;
+  height: 100rpx;
+  background-color: #fff;
+  border-radius: 12rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.05);
+}
+.contact-icon {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 15rpx;
+}
+.contact-text {
+  font-size: 30rpx;
+  color: #333;
+}

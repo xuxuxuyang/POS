@@ -1,0 +1,72 @@
+
+.address-edit-container {
+  min-height: 100vh;
+  background-color: #f7f7f7;
+  padding-bottom: 120rpx;
+}
+.form-container {
+  background-color: #fff;
+  margin-top: 20rpx;
+}
+.form-group {
+  display: flex;
+  align-items: center;
+  padding: 30rpx;
+}
+.form-label {
+  width: 160rpx;
+  font-size: 30rpx;
+  color: #333;
+}
+.form-input {
+  flex: 1;
+  font-size: 30rpx;
+  height: 60rpx;
+}
+.form-textarea {
+  flex: 1;
+  height: 160rpx;
+  font-size: 30rpx;
+  line-height: 1.4;
+}
+.form-divider {
+  height: 1rpx;
+  background-color: #eee;
+  margin-left: 30rpx;
+}
+.region-picker {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60rpx;
+}
+.picker-value {
+  font-size: 30rpx;
+  color: #333;
+}
+.placeholder {
+  color: #999;
+}
+.arrow-icon {
+  width: 32rpx;
+  height: 32rpx;
+}
+.switch-group {
+  justify-content: space-between;
+}
+.submit-btn {
+  position: fixed;
+  bottom: 40rpx;
+  left: 30rpx;
+  right: 30rpx;
+  height: 90rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1296db;
+  border-radius: 45rpx;
+  color: #fff;
+  font-size: 32rpx;
+  box-shadow: 0 4rpx 20rpx rgba(18, 150, 219, 0.3);
+}

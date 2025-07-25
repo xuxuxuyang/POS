@@ -1,0 +1,313 @@
+
+.apply-container {
+  padding-bottom: 120rpx;
+}
+.step-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30rpx 40rpx;
+  background-color: #fff;
+  margin-bottom: 20rpx;
+}
+.step-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.step-num {
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+  background-color: #ddd;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24rpx;
+  margin-bottom: 10rpx;
+}
+.step-text {
+  font-size: 24rpx;
+  color: #999;
+}
+.step-line {
+  flex: 1;
+  height: 2rpx;
+  background-color: #ddd;
+  margin: 0 10rpx;
+}
+.step-item.active .step-num {
+  background-color: #1296db;
+}
+.step-item.active .step-text {
+  color: #1296db;
+}
+.step-item.completed .step-num {
+  background-color: #67c23a;
+}
+.step-line.active {
+  background-color: #67c23a;
+}
+.product-preview {
+  background-color: #fff;
+  padding: 20rpx 30rpx;
+  margin-bottom: 20rpx;
+}
+.product-preview-inner {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px dashed #eee;
+  padding-bottom: 20rpx;
+}
+.product-preview-image {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 8rpx;
+  margin-right: 20rpx;
+}
+.product-preview-info {
+  flex: 1;
+}
+.product-preview-name {
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+  display: block;
+}
+.product-preview-price {
+  font-size: 30rpx;
+  color: #ff6700;
+  margin-bottom: 10rpx;
+  display: block;
+}
+.product-preview-desc {
+  font-size: 24rpx;
+  color: #999;
+  display: block;
+}
+.form-content {
+  padding: 30rpx;
+  background-color: #fff;
+}
+.form-title {
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-bottom: 30rpx;
+}
+.form-item {
+  margin-bottom: 30rpx;
+}
+.form-label {
+  display: block;
+  font-size: 28rpx;
+  color: #333;
+  margin-bottom: 15rpx;
+}
+.form-input,
+.form-textarea,
+.form-picker {
+  width: 100%;
+  height: 80rpx;
+  border: 1px solid #ddd;
+  border-radius: 8rpx;
+  padding: 0 20rpx;
+  font-size: 28rpx;
+  box-sizing: border-box;
+}
+.form-textarea {
+  height: 160rpx;
+  padding: 20rpx;
+  line-height: 1.6;
+}
+.picker-value {
+  height: 80rpx;
+  line-height: 80rpx;
+  color: #333;
+}
+.upload-box {
+  width: 100%;
+  height: 300rpx;
+  border: 1px dashed #ddd;
+  border-radius: 8rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.upload-box image {
+  width: 100%;
+  height: 100%;
+}
+.upload-text {
+  font-size: 28rpx;
+  color: #999;
+}
+.delivery-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30rpx;
+}
+.delivery-option {
+  flex: 1;
+  height: 160rpx;
+  border: 1px solid #ddd;
+  border-radius: 8rpx;
+  margin: 0 15rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.delivery-option:first-child {
+  margin-left: 0;
+}
+.delivery-option:last-child {
+  margin-right: 0;
+}
+.delivery-option.active {
+  border-color: #1296db;
+  background-color: rgba(18, 150, 219, 0.05);
+}
+.option-icon {
+  font-size: 48rpx;
+  margin-bottom: 15rpx;
+}
+.option-text {
+  font-size: 28rpx;
+  color: #333;
+}
+.deposit-info {
+  padding: 30rpx;
+  background-color: #f8f8f8;
+  border-radius: 8rpx;
+  margin-bottom: 30rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.deposit-left {
+  flex: 1;
+}
+.deposit-right {
+  width: 220rpx;
+  margin-left: 20rpx;
+}
+.product-image {
+  width: 100%;
+  height: 220rpx;
+  border-radius: 8rpx;
+}
+.product-name {
+  font-size: 32rpx;
+  margin-bottom: 15rpx;
+}
+.deposit-amount {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #ff6700;
+  margin-bottom: 15rpx;
+}
+.deposit-tip {
+  font-size: 24rpx;
+  color: #999;
+}
+.payment-methods {
+  display: flex;
+  margin-bottom: 30rpx;
+}
+.payment-method {
+  flex: 1;
+  height: 120rpx;
+  border: 1px solid #ddd;
+  border-radius: 8rpx;
+  padding: 20rpx;
+  display: flex;
+  align-items: center;
+}
+.payment-method.active {
+  border-color: #1296db;
+}
+.payment-method image {
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 20rpx;
+}
+.form-actions {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100rpx;
+  background-color: #fff;
+  display: flex;
+  border-top: 1px solid #f5f5f5;
+  z-index: 100;
+}
+.prev-btn,
+.next-btn,
+.submit-btn {
+  flex: 1;
+  height: 100%;
+  margin: 0;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+}
+.prev-btn {
+  background-color: #fff;
+  color: #666;
+}
+.next-btn,
+.submit-btn {
+  background-color: #1296db;
+  color: #fff;
+}
+.notice-content {
+  padding: 20rpx 0;
+}
+.notice-item {
+  margin-bottom: 30rpx;
+}
+.notice-title {
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-bottom: 15rpx;
+  color: #333;
+}
+.notice-text {
+  font-size: 26rpx;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 10rpx;
+  padding-left: 10rpx;
+}
+.agree-terms {
+  margin-top: 40rpx;
+  padding: 20rpx;
+  background-color: #f8f8f8;
+  border-radius: 8rpx;
+}
+.agree-label {
+  display: flex;
+  align-items: center;
+  font-size: 26rpx;
+}
+.agree-label text {
+  margin-left: 10rpx;
+}
+.label-with-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15rpx;
+}
+.wx-address-btn {
+  font-size: 24rpx;
+  color: #1296db;
+  background-color: rgba(18, 150, 219, 0.1);
+  padding: 6rpx 16rpx;
+  border-radius: 30rpx;
+}

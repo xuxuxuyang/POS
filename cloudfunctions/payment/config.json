@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "openapi": [
+      "cloudPay.unifiedOrder",
+      "cloudPay.queryOrder",
+      "cloudPay.refund",
+      "cloudPay.queryRefund"
+    ]
+  },
+  "triggers": [
+    {
+      "name": "payment-http",
+      "type": "http",
+      "config": {
+        "methods": ["POST", "OPTIONS"],
+        "authRequired": false,
+        "cors": {
+          "origin": "*",
+          "methods": ["POST", "OPTIONS"],
+          "maxAge": 3600
+        }
+      }
+    }
+  ]
+}

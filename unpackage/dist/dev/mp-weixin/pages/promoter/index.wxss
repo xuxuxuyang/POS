@@ -1,0 +1,255 @@
+
+.promoter-container {
+  min-height: 100vh;
+  background-color: #f7f7f7;
+  padding-bottom: 40rpx;
+}
+
+/* 头部卡片 */
+.header-card {
+  background: linear-gradient(to right, #1296db, #14b8e4);
+  color: #fff;
+  padding: 30rpx;
+  border-radius: 0 0 20rpx 20rpx;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30rpx;
+}
+.avatar {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  border: 4rpx solid rgba(255, 255, 255, 0.3);
+  margin-right: 20rpx;
+}
+.user-name {
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-bottom: 6rpx;
+}
+.user-level {
+  font-size: 24rpx;
+  opacity: 0.9;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 4rpx 16rpx;
+  border-radius: 20rpx;
+  display: inline-block;
+}
+.status-row {
+  display: flex;
+  margin-bottom: 30rpx;
+}
+.status-item {
+  flex: 1;
+  text-align: center;
+}
+.status-divider {
+  width: 1rpx;
+  height: 50rpx;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-top: 10rpx;
+}
+.status-value {
+  font-size: 40rpx;
+  font-weight: bold;
+  margin-bottom: 6rpx;
+}
+.status-label {
+  font-size: 24rpx;
+  opacity: 0.9;
+}
+.action-row {
+  display: flex;
+  justify-content: space-between;
+}
+.action-btn {
+  flex: 1;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  background-color: #fff;
+  color: #1296db;
+  border-radius: 35rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+  margin: 0 15rpx;
+}
+.action-btn.outline {
+  background-color: transparent;
+  border: 1rpx solid #fff;
+  color: #fff;
+}
+
+/* 数据卡片 */
+.data-card,
+.trend-card,
+.menu-card,
+.qrcode-card,
+.tips-card {
+  margin: 30rpx;
+  background-color: #fff;
+  border-radius: 12rpx;
+  padding: 30rpx;
+  box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.05);
+}
+.card-title {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+.data-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.data-item {
+  width: 50%;
+  margin-bottom: 20rpx;
+}
+.data-value {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 6rpx;
+}
+.data-label {
+  font-size: 26rpx;
+  color: #999;
+}
+
+/* 收益走势 */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.card-tabs {
+  display: flex;
+  background-color: #f5f5f5;
+  border-radius: 8rpx;
+  overflow: hidden;
+}
+.tab-item {
+  padding: 8rpx 16rpx;
+  font-size: 24rpx;
+  color: #666;
+}
+.tab-active {
+  background-color: #1296db;
+  color: #fff;
+}
+.chart-placeholder {
+  height: 300rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 8rpx;
+}
+.chart-icon {
+  width: 100rpx;
+  height: 100rpx;
+  margin-bottom: 20rpx;
+  opacity: 0.5;
+}
+.placeholder-text {
+  font-size: 28rpx;
+  color: #999;
+}
+
+/* 功能菜单 */
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 30rpx 0;
+  border-bottom: 1rpx solid #f5f5f5;
+}
+.menu-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.menu-icon {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+}
+.menu-text {
+  flex: 1;
+  font-size: 30rpx;
+  color: #333;
+}
+.arrow-icon {
+  width: 24rpx;
+  height: 24rpx;
+}
+
+/* 二维码 */
+.qrcode-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30rpx 0;
+}
+.qrcode-image {
+  width: 300rpx;
+  height: 300rpx;
+  margin-bottom: 20rpx;
+}
+.qrcode-tips {
+  font-size: 26rpx;
+  color: #999;
+}
+.qrcode-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 20rpx;
+}
+.qrcode-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 30rpx;
+}
+.btn-icon {
+  width: 50rpx;
+  height: 50rpx;
+  margin-bottom: 10rpx;
+}
+.qrcode-btn text {
+  font-size: 24rpx;
+  color: #666;
+}
+
+/* 推广攻略 */
+.tips-list {
+}
+.tips-item {
+  display: flex;
+  margin-bottom: 20rpx;
+}
+.tips-item:last-child {
+  margin-bottom: 0;
+}
+.tips-number {
+  width: 40rpx;
+  height: 40rpx;
+  background-color: #1296db;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24rpx;
+  margin-right: 20rpx;
+  flex-shrink: 0;
+}
+.tips-content {
+  flex: 1;
+  font-size: 28rpx;
+  color: #666;
+  line-height: 1.5;
+}

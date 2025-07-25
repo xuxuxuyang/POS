@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/order/list",
+    "pages/service/activate",
+    "pages/service/appointment",
+    "pages/service/repair",
+    "pages/product/list",
+    "pages/product/detail",
+    "pages/apply/index",
+    "pages/order/index",
+    "pages/deposit/pay",
+    "pages/deposit/refund-orders",
+    "pages/user/index",
+    "pages/help/index",
+    "pages/search/index",
+    "pages/user/points",
+    "pages/guide/apply",
+    "pages/guide/index",
+    "pages/service/after-sale",
+    "pages/activity/list",
+    "pages/activity/detail",
+    "pages/guide/download",
+    "pages/user/invoice",
+    "pages/promoter/index",
+    "pages/promoter/join",
+    "pages/service/more",
+    "pages/user/address",
+    "pages/user/address-edit",
+    "pages/user/security",
+    "pages/user/phone-verify",
+    "pages/help/feedback",
+    "pages/help/about",
+    "pages/activity/promotion"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "POS机申请",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/shouye.png",
+        "selectedIconPath": "static/tabbar/shouye.png"
+      },
+      {
+        "pagePath": "pages/order/index",
+        "text": "订单",
+        "iconPath": "static/tabbar/dingdan.png",
+        "selectedIconPath": "static/tabbar/dingdan.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "static/tabbar/wode.png",
+        "selectedIconPath": "static/tabbar/wode.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

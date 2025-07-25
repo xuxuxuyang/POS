@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "openapi": ["cloud.database"]
+  },
+  "triggers": [
+    {
+      "name": "adminDataHTTP",
+      "type": "http",
+      "config": {
+        "methods": ["POST", "OPTIONS"],
+        "authRequired": false,
+        "cors": {
+          "origin": "*",
+          "methods": ["POST", "OPTIONS"],
+          "maxAge": 86400
+        }
+      }
+    }
+  ]
+} 

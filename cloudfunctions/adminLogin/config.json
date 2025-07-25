@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "openapi": []
+  },
+  "triggers": [
+    {
+      "name": "adminLogin-http",
+      "type": "http",
+      "config": {
+        "methods": ["POST", "OPTIONS"],
+        "authRequired": false,
+        "cors": {
+          "origin": "*",
+          "methods": ["POST", "OPTIONS"],
+          "maxAge": 3600
+        }
+      }
+    }
+  ]
+}

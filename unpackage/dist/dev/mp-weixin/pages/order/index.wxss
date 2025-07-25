@@ -1,0 +1,276 @@
+
+.order-status-container {
+  padding: 30rpx;
+  padding-bottom: 120rpx;
+  background-color: #f6f6f6;
+}
+.status-card,
+.customer-info {
+  background-color: #fff;
+  border-radius: 12rpx;
+  padding: 30rpx;
+  margin-bottom: 30rpx;
+  box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.05);
+}
+.status-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx solid #f5f5f5;
+}
+.status-title {
+  font-size: 32rpx;
+  font-weight: bold;
+  text-align: center;
+}
+.order-id {
+  font-size: 24rpx;
+  color: #999;
+}
+
+/* 产品信息样式 */
+.product-info {
+  display: flex;
+  padding: 20rpx 0;
+}
+.product-image {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 8rpx;
+  background-color: #f8f8f8;
+}
+.product-details {
+  flex: 1;
+  margin-left: 20rpx;
+  padding-top: 10rpx;
+}
+.product-name {
+  font-size: 32rpx;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 10rpx;
+}
+.product-spec {
+  font-size: 26rpx;
+  color: #666;
+  margin-bottom: 10rpx;
+}
+.deposit-amount {
+  font-size: 30rpx;
+  color: #ff6700;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+}
+.apply-time {
+  font-size: 24rpx;
+  color: #999;
+}
+.section-title {
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx solid #f5f5f5;
+}
+.info-group {
+  margin-bottom: 30rpx;
+}
+.info-group:last-child {
+  margin-bottom: 0;
+}
+.info-title {
+  font-size: 28rpx;
+  color: #1296db;
+  padding: 15rpx 0;
+  border-bottom: 1rpx dashed #eee;
+  margin-bottom: 10rpx;
+}
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15rpx 0;
+  font-size: 28rpx;
+}
+.detail-label {
+  color: #666;
+  min-width: 160rpx;
+}
+.detail-value {
+  color: #333;
+  font-weight: 500;
+  text-align: right;
+  flex: 1;
+}
+.address-wrap {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: flex-end;
+}
+.detail-value.address {
+  margin-right: 10rpx;
+  word-break: break-all;
+  flex: 1;
+}
+.copy-btn {
+  font-size: 24rpx;
+  color: #1296db;
+  background-color: #ecf5ff;
+  padding: 4rpx 16rpx;
+  border-radius: 20rpx;
+  white-space: nowrap;
+}
+.action-buttons {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100rpx;
+  display: flex;
+  background-color: #fff;
+  border-top: 1rpx solid #f5f5f5;
+  z-index: 100;
+}
+.action-btn {
+  flex: 1;
+  height: 100%;
+  margin: 0;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+}
+.action-btn.primary {
+  background-color: #1296db;
+  color: #fff;
+}
+
+/* 物流状态样式 */
+.logistics-card {
+  background-color: #fff;
+  border-radius: 12rpx;
+  padding: 30rpx;
+  margin-bottom: 30rpx;
+  box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.05);
+}
+.logistics-progress {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40rpx 0;
+  position: relative;
+}
+.progress-line {
+  position: absolute;
+  top: 10rpx;
+  left: 0;
+  right: 0;
+  height: 2rpx;
+  background-color: #eaeaea;
+  z-index: 1;
+}
+.progress-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  width: 25%;
+}
+.progress-dot {
+  width: 20rpx;
+  height: 20rpx;
+  border-radius: 50%;
+  background-color: #eaeaea;
+  border: 4rpx solid #fff;
+  box-shadow: 0 0 0 2rpx #eaeaea;
+  margin-bottom: 15rpx;
+}
+.progress-text {
+  font-size: 24rpx;
+  color: #999;
+  text-align: center;
+  white-space: nowrap;
+}
+.progress-time {
+  font-size: 20rpx;
+  color: #bbb;
+  margin-top: 8rpx;
+  text-align: center;
+}
+.progress-item.active .progress-dot {
+  background-color: #1296db;
+  box-shadow: 0 0 0 2rpx #1296db;
+}
+.progress-item.active .progress-text {
+  color: #333;
+}
+.progress-item.current .progress-dot {
+  width: 24rpx;
+  height: 24rpx;
+  background-color: #1296db;
+  box-shadow: 0 0 0 2rpx #1296db, 0 0 0 6rpx rgba(18, 150, 219, 0.2);
+}
+.progress-item.current .progress-text {
+  color: #1296db;
+  font-weight: bold;
+}
+.logistics-details {
+  border-top: 1rpx solid #f5f5f5;
+  padding-top: 20rpx;
+  margin-top: 20rpx;
+}
+.logistics-timeline {
+  margin: 20rpx 0;
+  padding-left: 10rpx;
+}
+.timeline-item {
+  position: relative;
+  padding-left: 30rpx;
+  padding-bottom: 30rpx;
+  border-left: 2rpx solid #eaeaea;
+}
+.timeline-item:last-child {
+  padding-bottom: 0;
+  border-left-color: transparent;
+}
+.timeline-item.first-item .timeline-message {
+  color: #1296db;
+  font-weight: bold;
+}
+.timeline-item.first-item .timeline-dot {
+  background-color: #1296db;
+  border-color: #1296db;
+}
+.timeline-dot {
+  position: absolute;
+  left: -10rpx;
+  top: 6rpx;
+  width: 18rpx;
+  height: 18rpx;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2rpx solid #ddd;
+}
+.timeline-content {
+  margin-bottom: 10rpx;
+}
+.timeline-message {
+  font-size: 26rpx;
+  color: #333;
+  line-height: 1.5;
+}
+.timeline-time {
+  font-size: 22rpx;
+  color: #999;
+  margin-top: 6rpx;
+}
+.no-logistics {
+  text-align: center;
+  color: #999;
+  font-size: 26rpx;
+  padding: 40rpx 0;
+}
